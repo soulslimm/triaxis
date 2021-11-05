@@ -1,0 +1,16 @@
+:root { --text-color: #eee; --text-light: #dbabab; }
+
+.layoutpage { color: var(--text-color); width: 95%; max-width: 950px; font-size: 1.1rem; }
+.layoutpage h1, .layoutpage h2, .layoutpage h3 { padding-bottom: 1rem; }
+.layoutpage p { padding-bottom: 1rem; }
+.layoutpage a { color: var(--text-light); }
+.layoutpage a:hover { color: var(--text-color); }
+.layoutpage h1 { font-size: 2.5rem; line-height: 3.5rem; padding-top: 2.5rem; font-weight: bold; }
+.layoutpage h2 { font-size: 2rem; padding-top: 1.5rem; font-weight: bold; }
+.layoutpage h3 { font-size: 1.65rem; padding-top: 1.5rem; font-weight: bold; }
+.layoutpage h4 { font-size: 1.5rem; padding-top: 1.5rem; }
+.layoutpage ul { list-style-type: disc; }
+.layoutpage ol { list-style-type: decimal; }
+.layoutpage ol, .layoutpage ul { margin: 0; padding: 1rem 2.5rem; list-style-position: outside; }
+.layoutpage ol li, .layoutpage ul li { padding-bottom: 0.5rem; }
+.layoutpage ol ol, .layoutpage ol ul, .layoutpage ul ol, .layoutpage ul ul { padding-top: 0.5rem; padding-bottom: 0px; padding-left: 2.5rem; padding-right: 2.5rem; }
